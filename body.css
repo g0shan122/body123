@@ -92,6 +92,13 @@ p {
         width: 100%;
        }
 }
+
+.big_rectangle svg {
+    @media screen and (min-width: 800px) {
+        width: 100%;
+        height: auto;
+    }
+}
   
 .with_rectangle {
     margin-top: 40px;
